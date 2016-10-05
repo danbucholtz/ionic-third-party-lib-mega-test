@@ -36,6 +36,7 @@
     "ng2-resource-rest": "^1.4.10",
     "npm": "^3.10.8",
     "parse": "^1.9.2",
+    "pouchdb": "^6.0.6",
     "skrollr": "^0.6.26",
     "three": "^0.81.2",
     "tween.js": "^16.3.5",
