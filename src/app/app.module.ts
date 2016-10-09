@@ -75,6 +75,11 @@ console.log('leaflet: ', leaflet);
 
 import hammerjs from 'hammerjs';
 console.log('hammerjs: ', hammerjs);
+
+import azureMobileClient from 'azure-mobile-apps-client';
+console.dir(azureMobileClient);
+
+
 @NgModule({
   declarations: [
     MyApp,

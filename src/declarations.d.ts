@@ -1,3 +1,4 @@
+declare module 'azure-mobile-apps-client';
 declare module 'breeze-client';
 declare module 'chart.js';
 declare module 'd3';
