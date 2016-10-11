@@ -79,6 +79,8 @@ console.log('hammerjs: ', hammerjs);
 import azureMobileClient from 'azure-mobile-apps-client';
 console.dir(azureMobileClient);
 
+import * as webAnimation from 'web-animations-js';
+console.log('webAnimation: ', webAnimation);
 
 @NgModule({
   declarations: [

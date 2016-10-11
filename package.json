@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "ionic-app-scripts build",
-    "watch": "ionic-app-scripts watch",
+    "watch": "node --max_old_space_size=4096 node_modules/.bin/ionic-app-scripts watch",
     "serve:before": "watch",
     "emulate:before": "build",
     "deploy:before": "build",
@@ -24,6 +24,7 @@
     "hammerjs": "^2.0.8",
     "immutable": "^3.8.1",
     "install": "^0.8.1",
+    "intl": "^1.2.5",
     "ionic-angular": "^2.0.0-rc.0",
     "ionic-native": "^2.0.3",
     "ionicons": "^3.0.0",
@@ -42,6 +43,7 @@
     "three": "^0.81.2",
     "tween.js": "^16.3.5",
     "underscore": "^1.8.3",
+    "web-animations-js": "^2.2.2",
     "wysihtml": "^0.6.0-beta1"
   },
   "devDependencies": {
