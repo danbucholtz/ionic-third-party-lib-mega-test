@@ -79,6 +79,9 @@ console.log('hammerjs: ', hammerjs);
 import azureMobileClient from 'azure-mobile-apps-client';
 console.dir(azureMobileClient);
 
+// import intl from 'intl';
+// console.log('intl: ', intl);
+
 import * as webAnimation from 'web-animations-js';
 console.log('webAnimation: ', webAnimation);
 
